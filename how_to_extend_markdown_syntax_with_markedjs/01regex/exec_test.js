@@ -1,0 +1,20 @@
+var re = /quick\s(brown).+?(jumps)/ig;
+var result = re.exec('The Quick Brown Fox Jumps Over The Lazy Dog');
+
+console.log(`======================== re ========================`);
+console.log(re);
+console.log(JSON.stringify(re));
+console.log(re.lastIndex);
+console.log(re.ignoreCase);
+console.log(re.global);
+console.log(re.multiline);
+console.log(re.source);
+console.log(`======================== result ========================`);
+console.log(result);
+console.log(JSON.stringify(result));
+console.log(result[0]);
+console.log(result[1]);
+console.log(result[2]);
+console.log(result[3]);
+console.log(result.index);
+console.log(result.input);
